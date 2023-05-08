@@ -7,9 +7,7 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-  <h1>
-    Bienvendio a la {{title}}  de {{name}}
-  </h1>
+  <h1>Bienvendio a la {{title}}  de {{name}} </h1>
 
   <div class="container">
 
@@ -19,30 +17,30 @@
 
     <div class="row">
       <div class="col-1">
-        <input type="button" id = "num" class="btn-success" value="7" onclick="getNum()">
-        <input type="button" id = "num" class="btn-success" value="4" onclick="getNum()">
-        <input type="button" id = "num" class="btn-success" value="1" onclick="getNum()">
-        <input type="button" id = "num" class="btn-success" value="." onclick="getNum('.')">
+        <button (click) = "seven()">7</button>
+        <button (click) = "four()">4</button>
+        <button (click) = "one()">1</button>
+        <button (click) = "point()">.</button>
       </div>
       <div class="col-2">
-        <input type="button" class="btn-success" value="8" onclick="num(8)">
-        <input type="button" class="btn-success" value="5" onclick="num(5)">
-        <input type="button" class="btn-success" value="2" onclick="num(2)">
-        <input type="button" class="btn-success" value="0" onclick="num(0)">
+        <button (click) = "eight()">8</button>
+        <button (click) = "five()">5</button>
+        <button (click) = "two()">2</button>
+        <button (click) = "zero()">0</button>
       </div>
       <div class="col-3">
-        <input type="button" class="btn-success" value="9" onclick="num(9)">
-        <input type="button" class="btn-success" value="6" onclick="num(9)">
-        <input type="button" class="btn-success" value="3" onclick="num(9)">
-        <input type="button" class="btn-success" value="00" onclick="num('00')">
+        <button (click) = "nine()">9</button>
+        <button (click) = "six()">6</button>
+        <button (click) = "three()">3</button>
+        <button (click) = "zeroZero()">00</button>
       </div>
       <div class="col-4">
-        <input type="button" class="btn-danger" value="DEL" onclick="del()">
-        <input type="button" class="btn-danger" value="/" onclick="num('/')">
-        <input type="button" class="btn-danger" value="X" onclick="num('*')">
-        <input type="button" class="btn-danger" value="-" onclick="num('-')">
-        <input type="button" id="suma" class="btn-danger" value="+" onclick="getNum()">
-        <input type="button" class="btn-danger" value="=" onclick="igual()">
+        <button (click) = "delete()">DEL</button>
+        <button (click) = "dividir()">/</button>
+        <button (click) = "multiplicar()">X</button>
+        <button (click) = "restar()">-</button>
+        <button (click) = "sumar()">+</button>
+        <button (click) = "equal()">=</button>
       </div>
     </div>
   </div>
