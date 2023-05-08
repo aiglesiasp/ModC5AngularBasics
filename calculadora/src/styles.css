@@ -26,9 +26,8 @@ h1 {
   width: 100%;
   height: max-content;
   display: flex;
-  align-content: center;
-
 }
+
 
 .col-1 {
   margin-top: 2%;
@@ -54,19 +53,4 @@ h1 {
   display: flex;
   flex-direction: column;
   width: max-content;
-}
-
-
-.btn-success{
-  width: auto;
-  height: 50%;
-  text-align: center;
-  background-color: antiquewhite;
-}
-
-.btn-danger{
-  width: 100%;
-  border-radius: 0;
-  background-color: green;
-  color: white;
 }
