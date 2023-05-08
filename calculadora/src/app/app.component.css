@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(89, 161, 228);
+}
+
+.container{
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgb(99, 185, 185);
+  border-radius: 50px;
+}
+
+.form-control{
+  width: 100%;
+}
+
+.row{
+  width: 100%;
+}
+
+.col{
+  margin-bottom: 2%;
+  margin-top: 1%;
+  display: block;
+  width: 100%;
+
+}
+.button{
+  width: 100%;
+}
+
+.btn-success{
+  width: 100%;
+  border-radius: 0;
+}
+
+.btn-danger{
+  width: 100%;
+  border-radius: 0;
+}
