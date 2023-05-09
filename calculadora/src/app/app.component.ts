@@ -65,28 +65,28 @@ export class AppComponent {
 
 sumar() {
   if(this.count = 0 && this.valor1.length != 0) {
-    this.count++;
+    this.count = 1;
     this.operador = '+';
   }
 }
 
 restar() {
   if(this.count == 0 && this.valor1.length != 0) {
-    this.count++;
+    this.count = 1;
     this.operador = '-';
   }
 }
 
 dividir() {
   if(this.count == 0 && this.valor1.length != 0) {
-    this.count++;
+    this.count = 1;
     this.operador = '/';
   }
 }
 
 multiplicar() {
   if(this.count == 0 && this.valor1.length != 0) {
-    this.count++;
+    this.count = 1;
     this.operador = '*';
   }
 }
@@ -123,10 +123,6 @@ equal() {
   }
 
   console.log(this.resultado);
-}
-
-updateValue() {
-  return this.resultado;
 }
 
 one() {
